@@ -10,10 +10,9 @@
     DEBUG
 ----------*/
 .debug header{
-    background-color: #add8e6;
+    background-color: #255EE9;
 }
 .debug .header-top{
-    background-color: #daa520;
     height: 50px;
 }
 /*----------
@@ -27,6 +26,32 @@
     flex-direction: row;
 }
 /*----------
+    FONT
+----------*/
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.size-color{
+    font-size: x-large;
+}
+/*----------
+    BUTTON
+----------*/
+button{
+    border-radius: 40%;
+    border: none;
+}
+.button-header{
+    padding: 5px 10px;
+}
+.button-main{
+    padding: 15px 32px;
+}
+.button-b{
+    background-color: black;
+    color: white;
+}
+/*----------
     HEADER
 ----------*/
 header{
@@ -37,15 +62,20 @@ header{
     justify-content: space-between;
     align-items: center;
 }
+li{
+    display: inline-block;
+}
+a{
+    color: white;
+}
 /*----------
     MAIN
 ----------*/
 section{
     padding: 40px 0;
-
 }
 .section1{
-    background-color: #00008b;
+    background-image: url(../img/jumbo.png);
 }
 .section2{
     background-color: #d3d3d3;
@@ -74,17 +104,18 @@ section{
 .col-pink{
     width: 100%;
     height: 400px;
-    background-color: #ee82ee;
+    font-size-adjust: initial;
+    color: white;
+    margin-left: 500px;
+    margin-top: 200px;
 }
 .col-big{
     width: 60%;
     height: 500px;
-    background-color: #1e90ff;
 }
 .col-small{
     width: 40%;
     height: 500px;
-    background-color: #ffc0cb;
 }
 .coll-green{
     width: 100%;
